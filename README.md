@@ -49,6 +49,15 @@ mock-website │── /css → Stylesheets
 ## 🏗 How to Run  
 1️⃣ **Clone the repository**  
    ```sh
+2️⃣ Navigate to the project folder
+
+sh
+Copy
+Edit
+cd your-repo
+3️⃣ Open index.html in your browser and explore! 🎉
+
+
    git clone https://github.com/your-username/your-repo.git
 🔥 Future Improvements
 🚀 Add a Contact Form with validation
