@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luis Rodriguez - Full Stack Developer Portfolio">
+    <meta name="author" content="Luis Rodriguez">
+    
+    <title>Luis Rodriguez - Full Stack Developer</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <img src="images/Profile-Picture.png" alt="Luis Rodriguez - Software Developer" width="50" height="50" class="nav-logo">
+                <span class="nav-title">Luis Rodriguez</span>
+            </div>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Profile Section -->
+        <div class="profile-container">
+            <img src="images/Profile-Picture.png" alt="Luis Rodriguez - Software Developer" width="200" height="200">
+            <div class="profile-info">
+                <h1>Luis Rodriguez</h1>
+                <p class="tagline">
+                    <em>Full-Stack Developer & Digital Solutions Architect</em>
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="visually-hidden">Connect with me on LinkedIn</span>
+                        <svg aria-hidden="true" class="icon" width="24" height="24" viewBox="0 0 24 24">
+                            <!-- LinkedIn icon path -->
+                            <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="visually-hidden">View my projects on GitHub</span>
+                        <svg aria-hidden="true" class="icon" width="24" height="24" viewBox="0 0 24 24">
+                            <!-- GitHub icon path -->
+                            <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="intro-text">Transforming business challenges into elegant digital solutions through clean code and user-centric design. Specialized in building scalable web applications that drive real business results.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <div class="about-container">
+                <div class="about-main">
+                    <div class="about-text">
+                        <p class="lead-text">Based in McAllen, Texas, I'm a passionate Full Stack Developer who transforms complex business challenges into elegant digital solutions.</p>
+                        <div class="expandable-content">
+                            <p>With a unique background spanning from retail management to tech, I bring a distinctive approach to software development. My experience in customer service has taught me the importance of user-centric design and clear communication.</p>
+                            <button class="read-more-btn" aria-expanded="false">Read More</button>
+                            <div class="expanded-text">
+                                <p>I specialize in building scalable web applications that help businesses grow and operate more efficiently. With expertise in both front-end and back-end development, I bridge the gap between business needs and technical solutions, ensuring every project delivers real value.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Professional Journey Section -->
+                <section class="professional-journey">
+                    <h3>Professional Journey</h3>
+                    <div class="journey-timeline">
+                        <div class="journey-card">
+                            <div class="journey-header">
+                                <h4>Full Stack Developer</h4>
+                                <span class="journey-period">2022 - Present</span>
+                            </div>
+                            <p class="journey-company">Freelance</p>
+                            <ul class="journey-achievements">
+                                <li>Developed responsive web applications</li>
+                                <li>Implemented modern UI/UX designs</li>
+                                <li>Managed client relationships and project timelines</li>
+                            </ul>
+                        </div>
+                        <div class="journey-card">
+                            <div class="journey-header">
+                                <h4>Retail Management</h4>
+                                <span class="journey-period">2020 - 2022</span>
+                            </div>
+                            <p class="journey-company">Previous Experience</p>
+                            <ul class="journey-achievements">
+                                <li>Led team of 15+ employees</li>
+                                <li>Improved customer satisfaction metrics by 25%</li>
+                                <li>Managed inventory and operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Expertise Grid -->
+                <div class="expertise-grid">
+                    <div class="expertise-card" data-category="development" tabindex="0">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <span class="expertise-icon">💻</span>
+                                <h3>Development</h3>
+                                <p>Click to explore</p>
+                            </div>
+                            <div class="card-back">
+                                <ul>
+                                    <li>Responsive Web Design</li>
+                                    <li>Full Stack Development</li>
+                                    <li>Modern JavaScript & Frameworks</li>
+                                    <li>Performance Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card" data-category="solutions" tabindex="0">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <span class="expertise-icon">🎯</span>
+                                <h3>Solutions</h3>
+                                <p>Click to explore</p>
+                            </div>
+                            <div class="card-back">
+                                <ul>
+                                    <li>E-commerce Solutions</li>
+                                    <li>Custom Web Applications</li>
+                                    <li>System Integration</li>
+                                    <li>Technical Consulting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="expertise-card" data-category="business" tabindex="0">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <span class="expertise-icon">🤝</span>
+                                <h3>Business Skills</h3>
+                                <p>Click to explore</p>
+                            </div>
+                            <div class="card-back">
+                                <ul>
+                                    <li>Project Management</li>
+                                    <li>Client Relations</li>
+                                    <li>Team Leadership</li>
+                                    <li>Strategic Planning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education" aria-labelledby="education-heading">
+            <h2 id="education-heading">Education & Learning</h2>
+            <div class="education-content">
+                <div class="formal-education">
+                    <h3>Formal Education</h3>
+                    <ul>
+                        <li>
+                            <span class="year">Current</span>
+                            <div class="education-details">
+                                <h4>Web Development Bootcamp</h4>
+                                <p>Advancing my skills in modern web technologies and best practices</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications & Training</h3>
+                    <ul class="cert-list">
+                        <li>Currently pursuing web development certifications</li>
+                        <li>Committed to continuous professional development</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Leadership Skills -->
+                <div class="skills-category">
+                    <h3>Leadership & Management</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-item">
+                                <span class="skill-name">Team Leadership</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <span class="skill-name">Strategic Planning</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Customer Relations -->
+                <div class="skills-category">
+                    <h3>Customer Relations</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-item">
+                                <span class="skill-name">Customer Retention</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-item">
+                                <span class="skill-name">English</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 100%"></div>
+                                    </div>
+                                    <span class="skill-percentage">100%</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <span class="skill-name">Spanish</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 100%"></div>
+                                    </div>
+                                    <span class="skill-percentage">100%</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+         <!-- Projects Section -->
+        <section class="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="E-commerce Dashboard" class="project-thumbnail">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Dashboard</h3>
+                        <p class="project-description">A responsive dashboard for monitoring sales, inventory, and customer analytics in real-time.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="button primary">View Live</a>
+                            <a href="#" class="button secondary">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Task Management App" class="project-thumbnail">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p class="project-description">A collaborative task management platform with real-time updates and team features.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="button primary">View Live</a>
+                            <a href="#" class="button secondary">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Weather Forecast App" class="project-thumbnail">
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Forecast App</h3>
+                        <p class="project-description">Real-time weather forecasting application with interactive maps and alerts.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Weather API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="button primary">View Live</a>
+                            <a href="#" class="button secondary">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+            <ul class="footer-links">
+                <li><a href="hobbies.html">My Hobbies</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">&copy; 2024 Luis Rodriguez. All rights reserved.</p>
+    </footer>
+
+
+<script src="./js/main.js" type="module"></script>
+</body>
+</html>
